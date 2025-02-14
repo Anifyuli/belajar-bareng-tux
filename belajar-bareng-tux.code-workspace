@@ -1,0 +1,37 @@
+{
+	"folders": [
+		{
+			"name": "rootdir",
+			"path": "./"
+		},
+		{
+			"name": "apps/api",
+			"path": "./apps/api"
+		},
+		{
+			"name": "apps/web",
+			"path": "./apps/web"
+		},
+		{
+			"name": "packages",
+			"path": "./packages"
+		},
+	],
+	"settings": {
+		"files.exclude": {
+			"node_modules/": true
+		},
+		"jest.disabledWorkspaceFolders": [
+			"rootdir",
+			"apps/web",
+			"packages"
+		],
+		"json.schemaDownload.enable": true
+	},
+	"extensions": {
+		"recommendations": [
+			"dbaeumer.vscode-eslint",
+			"orta.vscode-jest",
+		],
+	}
+}

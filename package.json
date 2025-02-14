@@ -1,10 +1,10 @@
 {
-  "name": "my-turborepo",
-  "version": "0.0.0",
+  "name": "belajar-bareng-tux",
+  "version": "0.0.1",
   "private": true,
   "description": "",
   "author": "",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "scripts": {
     "dev": "turbo dev",
     "build": "turbo build",
@@ -22,5 +22,13 @@
   "packageManager": "pnpm@8.15.5",
   "engines": {
     "node": ">=18"
+  },
+  "dependencies": {
+    "@eslint/eslintrc": "^3.2.0",
+    "@eslint/js": "^9.19.0",
+    "@tailwindcss/vite": "^4.0.6",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.2",
+    "tailwindcss": "^4.0.6"
   }
 }
