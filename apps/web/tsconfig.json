@@ -1,12 +1,15 @@
 {
-  "compilerOptions": {
-    "module": "ESNext",
-    "moduleResolution": "Bundler",
-    "allowJs": true,
-    "allowImportingTsExtensions": true,
-    "jsx": "react-jsx",
-    "noEmit": true
-  },
-  "extends": "@repo/typescript-config/vite.json",
-  "include": ["src"],
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "@/*": [
+          "./src/*"
+        ]
+      }
+    }
 }

@@ -2,8 +2,6 @@
 
 # Dependencies
 node_modules
-.pnp
-.pnp.js
 
 # Local env files
 .env
@@ -19,13 +17,6 @@ coverage
 test-results/
 playwright/.cache/
 playwright-report/
-
-
-# Turbo
-.turbo
-
-# Vercel
-.vercel
 
 # Build Outputs
 out/
