@@ -1,10 +1,23 @@
-import { Button } from "./components/ui/button";
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { News } from './pages/news';
+import Navbar from './components/ui/navbar';
+import { HomePage } from './pages/home';
 
 export default function App() {
   return (
     <>
-      <h1 className="text-4xl">Halo semua</h1>
-      <Button>Budi</Button>
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route path="/about" element={""} />
+          <Route path="/services" element={""} />
+          <Route path="/contact" element={""} />
+          <Route path="/news" element={<News />} />
+        </Routes>
+        <div>
+          <HomePage />
+        </div>
+      </BrowserRouter>
     </>
   );
 }
