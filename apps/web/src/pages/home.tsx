@@ -42,7 +42,7 @@ export function HomePage() {
         <hr className="border-t-2 border-gray-400 my-4" />
 
         {/* Latest articles container */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 justify-items-center">
+        <div className="mb-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 justify-items-center">
           <ArticlePreview />
           <ArticlePreview />
           <ArticlePreview />
