@@ -22,11 +22,6 @@ export function Footer() {
             </li>
             <li>
               <Link to="#" className="hover:italic">
-                Articles
-              </Link>
-            </li>
-            <li>
-              <Link to="#" className="hover:italic">
                 Categories
               </Link>
             </li>

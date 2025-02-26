@@ -18,13 +18,7 @@ export default function Navbar() {
         <SheetContent side="left" className="w-64 px-10 pt-6">
           <nav className="space-y-4 mt-8">
             <Link
-              to="/articles"
-              className="block py-2 text-lg font-semibold hover:text-gray-600"
-            >
-              Articles
-            </Link>
-            <Link
-              to="/Categories"
+              to="/categories"
               className="block py-2 text-lg font-semibold hover:text-gray-600"
             >
               Categories

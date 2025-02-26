@@ -12,7 +12,7 @@ import {
 
 export function HomePage() {
   return (
-    <div className="flex flex-col gap-1">
+    <div className="flex flex-col mb-8 gap-1">
       <div className="py-1">
         <SearchSection />
       </div>
